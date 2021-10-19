@@ -830,8 +830,35 @@ footer.footer .footer__nav li a {
     visibility: visible;
 }
 
+.infosect__green .descrbox {
+    position: relative;
 
+    h3,
+    p,
+    a {
+        position: relative;
+        z-index: 2;
+    }
 
+    &:after {
+        content: '';
+        display: inline-block;
+        width: 198px;
+        height: 198px;
+        border-radius: 50%;
+        background: #F08976;
+        position: absolute;
+        top: 90px;
+        left: -120px;
+        animation: move 16s infinite;
+        animation-timing-function: ease-in-out;
+    }
+}
+
+.infosect img {
+    position: relative;
+    z-index: 2;
+}
 
 
 
