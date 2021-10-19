@@ -1,0 +1,65 @@
+header.header {
+    height: 120px;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 11;
+    display: flex;
+    align-items: center;
+
+    nav {
+        text-align: right;
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                display: inline-block;
+                vertical-align: middle;
+                margin-right: 50px;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                a {
+                    color: #FFFFFF;
+                    font-size: 20px;
+                    line-height: 150%;
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.header {
+    transition: .5s;
+
+    img {
+        transition: .5s;
+    }
+}
+
+.header.small {
+    height: 80px;
+    background: rgba(0, 0, 0, 0.8);
+
+    img {
+        max-width: 240px;
+    }
+}
+
+
+
+
+
+// font-family: 'Abril Fatface', cursive;
+// font-family: 'Lato', sans-serif;
