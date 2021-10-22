@@ -1,0 +1,337 @@
+.firstsection {
+    height: 526px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    padding-top: 120px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 50%;
+        position: absolute;
+        top: 0;
+    }
+
+    h1 {
+        position: relative;
+        z-index: 2;
+        color: #fff;
+        font-size: 64px;
+        line-height: 121.4%;
+        font-family: 'Abril Fatface', cursive;
+    }
+
+
+
+
+}
+
+.secttitle {
+    margin-bottom: 26px;
+    text-transform: uppercase;
+    color: #F08976;
+    letter-spacing: 0.085em;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 121.4%;
+}
+
+.aboutthem {
+    padding: 100px 0 60px;
+
+    h2 {
+        margin-bottom: 28px;
+        font-size: 48px;
+        line-height: 121.4%;
+        font-family: 'Abril Fatface', cursive;
+    }
+
+    .subtitle {
+        margin-bottom: 30px;
+        font-weight: 900;
+        font-size: 24px;
+    }
+
+    .descr {
+        margin-bottom: 80px;
+
+        p {
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.thatswhyuhere {
+    padding: 80px 0 0 0;
+
+    .title {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 150%;
+        position: relative;
+        margin-bottom: 122px;
+
+        &:after {
+            content: '';
+            display: inline-block;
+            width: 70px;
+            height: 6px;
+            position: absolute;
+            left: 0;
+            bottom: -27px;
+            background: #F08976;
+        }
+    }
+
+    a.redbtn {
+        max-width: 294px;
+    }
+
+    p {
+        margin-bottom: 36px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+
+}
+
+.quote-yellow {
+    padding: 70px 0;
+    background-color: #F4D096;
+    background-image: url(../img/dots-bg.png);
+
+    p {
+        text-align: center;
+        margin: 0 auto;
+        max-width: calc(100% - 280px);
+        font-size: 36px;
+        line-height: 140%;
+        font-family: 'Abril Fatface', cursive;
+        position: relative;
+
+        &:after,
+        &:before {
+            content: "";
+            display: inline-block;
+            position: absolute;
+            width: 74px;
+            height: 54px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        &:after {
+            background: url(../img/quotepic1.png) no-repeat center/100%;
+            right: calc(100% + 68px);
+        }
+
+        &:before {
+            background: url(../img/quotepic2.png) no-repeat center/100%;
+            left: calc(100% + 68px);
+        }
+    }
+}
+
+.aboutme {
+    padding: 70px 0;
+}
+
+.aboutme-textblock {
+    padding: 58px 0 0 50px;
+
+    .secttitle {
+        margin-bottom: 17px;
+    }
+
+    .aboutme__info {
+
+        max-width: 685px;
+
+        p {
+            font-size: 48px;
+            line-height: 121.4%;
+            font-family: 'Abril Fatface', cursive;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.aboutyourapproach {
+    padding: 77px 0 79px;
+    background: #F5F5F5;
+
+    img {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 48px;
+        line-height: 121.4%;
+        font-family: 'Abril Fatface', cursive;
+        margin: 0;
+        width: 702px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .bottdescr {
+        margin: 53px 0 0 0;
+
+        .redbtn {
+            max-width: 294px;
+            margin: 69px auto 0;
+        }
+    }
+
+}
+
+.postssection {
+    padding: 80px 0;
+}
+
+.postblock {
+    .postblock__img {
+        padding: 0 0 72% 0;
+        overflow: hidden;
+        position: relative;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-position: 50% 50%;
+            object-fit: cover;
+            position: absolute;
+        }
+    }
+
+    .postblock__descr {
+        padding: 50px 0 0 0;
+
+        .title {
+            font-size: 36px;
+            line-height: 121.4%;
+            font-family: 'Abril Fatface', cursive;
+            position: relative;
+            margin-bottom: 51px;
+
+            &:after {
+                content: '';
+                display: inline-block;
+                width: 70px;
+                height: 6px;
+                background: #F08976;
+                bottom: -27px;
+                position: absolute;
+                left: 0;
+            }
+        }
+
+        .descr {
+            height: 113px;
+            position: relative;
+            overflow: hidden;
+
+            &.hauto {
+                height: auto;
+
+                &:after {
+                    display: none;
+                }
+            }
+
+            p {
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+
+            &:after {
+                content: '';
+                display: block;
+                height: 67px;
+                width: 100%;
+                background: linear-gradient(360deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+                position: absolute;
+                left: 0;
+                bottom: 0;
+            }
+        }
+
+        .showmore {
+            margin: 15px auto 0;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+
+            img {
+                max-width: 100%;
+                width: auto;
+            }
+
+            &.rotatearrow {
+                transform: rotate(-180deg);
+            }
+
+
+        }
+    }
+
+
+}
+
+.infosect.wwm {
+    padding: 80px 0 100px;
+
+    .thatswhyuhere {
+        padding: 0;
+    }
+
+    .descleft {
+        margin: 0;
+    }
+
+    .redbtn {
+        margin-top: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// font-family: 'Abril Fatface', cursive;
+// font-family: 'Lato', sans-serif;

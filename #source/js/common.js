@@ -85,7 +85,12 @@ $(document).ready(function () {
         $('html, body').animate({ scrollTop: 0 }, '300');
     });
 
-
+    // show more
+    $('.postblock .showmore').click(function (e) {
+        e.preventDefault();
+        $(this).siblings('.descr').toggleClass('hauto');
+        $(this).toggleClass('rotatearrow');
+    });
 
 
 

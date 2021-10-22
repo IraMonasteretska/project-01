@@ -445,7 +445,9 @@
         bottom: 100px;
     }
 
-
+    .infosect__green .descrbox.showtablet:after {
+        display: none;
+    }
 
 
 
