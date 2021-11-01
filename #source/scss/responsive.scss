@@ -64,6 +64,50 @@
         padding-bottom: 100px;
     }
 
+    .first-bgsection {
+        padding-top: 100px;
+    }
+
+    .first-bgsection {
+        height: 360px;
+    }
+
+    .first-bgsection .first-bgsection__title {
+        font-size: 42px;
+    }
+
+    .sectsubtitle {
+        margin-bottom: 15px;
+    }
+
+    .wwm-section .sect-title {
+        max-width: 700px;
+        margin-bottom: 30px;
+    }
+
+    .wwm-section h5 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .wwm-section .descr {
+        margin-bottom: 30px;
+    }
+
+    .wwm-section .redbtn {
+        margin-top: 60px;
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -78,6 +122,10 @@
         font-size: 14px;
         min-height: 56px;
         max-width: 260px;
+    }
+
+    .sectsubtitle {
+        font-size: 16px;
     }
 
     .welcomescreen .welcomescreen__textbox .welcomescreen__list li,
@@ -100,6 +148,10 @@
 
     .blog-item h5 {
         font-size: 32px;
+    }
+
+    .sect-title {
+        font-size: 38px;
     }
 
     .section-title,
@@ -549,7 +601,10 @@
         font-size: 24px;
     }
 
-
+    .pictextbox p {
+        bottom: 30px;
+        left: 30px;
+    }
 
 
 
@@ -560,7 +615,8 @@
 
 
     .quote-section,
-    .reversepostblocks {
+    .reversepostblocks,
+    .wwm-section {
         padding-top: 70px;
     }
 
@@ -568,10 +624,22 @@
         font-size: 42px;
     }
 
+    .first-bgsection .first-bgsection__title {
+        font-size: 38px;
+    }
+
+    .sect-title {
+        font-size: 34px;
+    }
+
     .section-title,
     .reversepostblock h4,
     .quote-section-img .description {
         font-size: 32px;
+    }
+
+    .pictextbox p {
+        font-size: 28px;
     }
 
     .firstsection h1 {
@@ -734,7 +802,23 @@
         padding: 70px 0 50px 0;
     }
 
+    .first-bgsection {
+        padding-top: 80px;
+    }
 
+    .first-bgsection {
+        height: 300px;
+    }
+
+    .pictextbox {
+        height: 360px;
+    }
+
+    .pictextbox img {
+        object-fit: cover;
+        object-position: 50% 50%;
+        height: 100%;
+    }
 
 
 
@@ -745,6 +829,9 @@
         padding-bottom: 70px;
     }
 
+    .first-bgsection .first-bgsection__title {
+        font-size: 34px;
+    }
 
     .quote-section-img .description {
         font-size: 28px;
@@ -889,7 +976,46 @@
         font-size: 18px;
     }
 
-    .firstsection h1 {
+    .sectsubtitle {
+        margin-bottom: 10px;
+    }
+
+    .wwm-section .sect-title {
+        margin-bottom: 10px;
+    }
+
+    .pictextbox p {
+        font-size: 24px;
+        left: 0;
+        bottom: 0;
+        padding: 0 10px 15px 15px;
+    }
+
+    .pictextbox {
+        height: 300px;
+    }
+
+    .wwm-section .redbtn {
+        margin-top: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .firstsection h1,
+    .first-bgsection .first-bgsection__title {
         font-size: 32px;
     }
 
@@ -897,7 +1023,8 @@
         font-size: 28px;
     }
 
-    .reversepostblock h4 {
+    .reversepostblock h4,
+    .sect-title {
         font-size: 24px;
     }
 
@@ -909,12 +1036,14 @@
         font-size: 18px;
     }
 
-    .quote-section .descr {
+    .quote-section .descr,
+    .wwm-section h5 {
         font-size: 16px;
     }
 
     .quote-section .author,
-    .quote-section-img .author {
+    .quote-section-img .author,
+    .sectsubtitle {
         font-size: 14px;
     }
 
@@ -922,6 +1051,25 @@
     .reviewbox .review__bottsect a {
         font-size: 12px;
     }
+
+    .first-bgsection {
+        height: 260px;
+    }
+
+    .reviews.reviews__wwm {
+        padding-bottom: 50px;
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -945,7 +1093,8 @@
 
     .blogsection,
     .quote-section,
-    .reversepostblocks {
+    .reversepostblocks,
+    .wwm-section {
         padding: 50px 0;
     }
 
@@ -953,7 +1102,8 @@
         padding-bottom: 50px;
     }
 
-    .reversepostblocks {
+    .reversepostblocks,
+    .wwm-section {
         padding-bottom: 0;
     }
 
