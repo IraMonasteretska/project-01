@@ -98,7 +98,10 @@
         margin-top: 60px;
     }
 
-
+    .wwm-section .myphoto img {
+        max-width: 300px;
+        right: 0;
+    }
 
 
 
@@ -606,6 +609,20 @@
         left: 30px;
     }
 
+    .wwm-section .wwm-titwrapper {
+        margin-bottom: 30px;
+    }
+
+    .wwm-section .myphoto img {
+        bottom: 30px;
+    }
+
+
+
+
+
+
+
 
 
 
@@ -999,9 +1016,23 @@
         margin-top: 30px;
     }
 
+    .tel-hide {
+        display: none;
+    }
 
 
 
+    .wwm-section .myphoto img {
+        bottom: 0;
+        max-width: 140px;
+    }
+
+    .myphoto-showtel {
+        display: inline-block;
+        width: 140px;
+        float: right;
+        margin-left: 10px;
+    }
 
 
 

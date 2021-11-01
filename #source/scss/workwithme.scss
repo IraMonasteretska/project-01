@@ -99,8 +99,30 @@
     padding-bottom: 100px;
 }
 
+.wwm-section {
+    .myphoto {
+        position: relative;
+        height: 100%;
 
+        img {
+            position: absolute;
+            bottom: 50px;
+            width: 100%;
+        }
+    }
 
+    .wwm-titwrapper {
+        margin-bottom: 60px;
+
+        h5 {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.myphoto-showtel {
+    display: none;
+}
 
 
 
