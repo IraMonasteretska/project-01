@@ -12,14 +12,14 @@ $(document).ready(function () {
         },
     });
 
-    // -------------
+    // ------------- paddings
     let windowWidth = $(window).width(),
         containerWidth = $('.container').width(),
         sideWidth = (windowWidth - containerWidth) / 2;
 
     $('.swiper-pagination').css('right', sideWidth + 'px');
     $('.welcomescreen__socials').css('left', sideWidth + 'px');
-
+    $('.reviews').css('padding-left', sideWidth + 'px');
     $(window).resize(function () {
         let windowWidth = $(window).width(),
             containerWidth = $('.container').width(),
@@ -30,22 +30,33 @@ $(document).ready(function () {
     });
 
     // testimonials slider
-    var swiper = new Swiper(".mySwiper-t", {
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        speed: 1200,
-        autoplay: {
-            delay: 5000,
-        },
+    var swiper = new Swiper(".swiper-review", {
+        slidesPerView: "auto",
+        spaceBetween: 30,
+        breakpoints: {
+            // when window width is >= 320px
+            320: {
+                spaceBetween: 16,
+                slidesPerView: "auto",
+            },
+            // when window width is >= 640px
+            640: {
+                spaceBetween: 30,
+                slidesPerView: "auto",
+            }
+        }
     });
 
-    $(".mySwiper-t").hover(function () {
-        (this).swiper.autoplay.stop();
-    }, function () {
-        (this).swiper.autoplay.start();
-    });
+
+
+
+
+
+    // $(".mySwiper-t").hover(function () {
+    //     (this).swiper.autoplay.stop();
+    // }, function () {
+    //     (this).swiper.autoplay.start();
+    // });
 
 
 
@@ -73,7 +84,7 @@ $(document).ready(function () {
     var btn = $('#totop');
 
     $(window).scroll(function () {
-        if ($(window).scrollTop() > 300) {
+        if ($(window).scrollTop() > 100) {
             btn.addClass('show');
         } else {
             btn.removeClass('show');
@@ -85,12 +96,6 @@ $(document).ready(function () {
         $('html, body').animate({ scrollTop: 0 }, '300');
     });
 
-    // show more
-    $('.postblock .showmore').click(function (e) {
-        e.preventDefault();
-        $(this).siblings('.descr').toggleClass('hauto');
-        $(this).toggleClass('rotatearrow');
-    });
 
 
 

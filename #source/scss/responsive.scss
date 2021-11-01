@@ -27,36 +27,7 @@
         bottom: -35px;
     }
 
-    .meetcons .title {
-        max-width: 500px;
-        left: -80px;
-    }
-
-    .workbox .textbox {
-        padding: 30px 0 0 0;
-    }
-
-    .infosect__second .infosect__infbox p {
-        margin-bottom: 20px;
-    }
-
-    .infosect__second .infosect__infbox:first-child:after {
-        top: 68%;
-    }
-
-    .testimonials .testimonials__slide {
-        padding: 60px 50px 50px;
-    }
-
-    .testimonials .testimonials__slide .author span:first-child:after {
-        height: 21px;
-    }
-
     .section-title {
-        margin-bottom: 30px;
-    }
-
-    .testimonials .section-title {
         margin-bottom: 30px;
     }
 
@@ -64,68 +35,96 @@
         right: 40px;
     }
 
-
-
-
-
-
-
-
-
-
-    .testimonials .testimonials__slide .author span {
-        font-size: 16px;
+    .firstsection {
+        height: 400px;
     }
 
-    .welcomescreen .welcomescreen__textbox .welcomescreen__list li {
+    .welcomescreen__socials ul li {
+        margin-bottom: 22px;
+    }
+
+    .reversepostblock .descr {
+        margin-bottom: 30px;
+    }
+
+    .quote-section {
+        padding-top: 100px;
+    }
+
+    h3 {
+        margin-bottom: 30px;
+    }
+
+    .quote-section-img {
+        padding: 100px 0 70px 0;
+        position: relative;
+    }
+
+    .reviews {
+        padding-bottom: 100px;
+    }
+
+
+
+
+
+
+    .reversepostblock .redbtn {
+        max-width: 260px;
+        min-height: 56px;
+    }
+
+    .redbtn {
+        font-size: 14px;
+        min-height: 56px;
+        max-width: 260px;
+    }
+
+    .welcomescreen .welcomescreen__textbox .welcomescreen__list li,
+    .quote-section .author,
+    .quote-section-img .author {
         font-size: 18px;
     }
 
-    .welcomescreen .welcomescreen__textbox .subtitle,
-    .testimonials .testimonials__slide .descr p {
+    .welcomescreen .welcomescreen__textbox .subtitle {
         font-size: 20px;
     }
 
-    .works .works__quote .descr p {
+    .quote-section .descr {
         font-size: 22px;
     }
 
-    .meetcons .title,
-    .infosect__second h3,
-    .section-title {
+    .welcomescreen .welcomescreen__textbox h1 span {
+        font-size: 24px;
+    }
+
+    .blog-item h5 {
+        font-size: 32px;
+    }
+
+    .section-title,
+    h3,
+    .quote-section-img .description {
         font-size: 42px;
     }
 
-    .infosect__green .descrbox h3 {
+    .welcomescreen .welcomescreen__textbox h1,
+    .reversepostblock h4 {
+        font-size: 42px;
+    }
+
+    .firstsection h1 {
         font-size: 46px;
     }
 
-    .welcomescreen .welcomescreen__textbox h1 {
-        font-size: 62px;
-    }
+
 
     // paddings
-    .meetcons,
-    .works,
-    .infosect__green {
-        padding: 100px 0;
-    }
-
-    .infosect {
-        padding-top: 100px;
-    }
-}
-
-@media(max-width:1439.8px) {
-
-    .testimonials .testimonials__sliderwrap {
-        width: 100%;
-        margin-left: 0;
-    }
-
-
+    // padding: 100px 0;
 
 }
+
+@media(max-width:1439.8px) {}
 
 @media(max-width:1199.8px) {
     body {
@@ -158,83 +157,6 @@
         margin: 0 auto 15px !important;
     }
 
-    .infosect__green,
-    .meetcons,
-    .works,
-    .infosect {
-        padding: 70px 0;
-    }
-
-    .works .works__quote {
-        max-width: 600px;
-        margin-bottom: 45px;
-    }
-
-    .works .works__quote .descr p {
-        font-size: 20px;
-    }
-
-    .workbox .picbox {
-        padding-bottom: 60%;
-    }
-
-    .workbox .textbox .title {
-        font-size: 30px;
-    }
-
-    .infosect .textwrapper p {
-        font-size: 40px;
-        width: 650px;
-        top: 60px;
-    }
-
-    .infosect .infosect__text {
-        height: 230px;
-    }
-
-    .infosect__second h3 {
-        font-size: 32px;
-    }
-
-    .infosect__second .infosect__infbox .yellowtextbox {
-        padding: 30px 40px;
-        margin-bottom: 40px;
-    }
-
-    .infosect__second .col-lg-6:nth-child(2) .infosect__infbox:after {
-        top: 100px;
-    }
-
-    .infosect__second .infosect__infbox:first-child:after {
-        top: 56%;
-    }
-
-    .infosect__second .infosect__infbox img:last-child {
-        margin-top: 30px;
-    }
-
-    .testimonials .testimonials__slide .descr p {
-        font-size: 18px;
-    }
-
-    .infosect__green .descrbox h3 {
-        font-size: 40px;
-        margin-bottom: 50px;
-        margin-left: -100px;
-    }
-
-    .infosect__green .descrbox {
-        padding-top: 30px;
-    }
-
-    .infosect__green .descrbox p {
-        padding-left: 30px;
-    }
-
-    .infosect__green .descrbox a {
-        margin-left: 30px;
-        margin-top: 30px;
-    }
 
     footer.footer .footer__nav li {
         margin-right: 35px;
@@ -244,25 +166,76 @@
         max-width: 200px;
     }
 
+    .blogsection .row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .blogsection .row .col-md-6 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .blog-item {
+        margin-bottom: 30px;
+        padding: 40px 50px 30px;
+        height: 240px;
+    }
+
+    header.header nav ul li {
+        margin-right: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .reversepostblock h4,
+    .welcomescreen .welcomescreen__textbox h1,
+    .quote-section-img .description,
+    .section-title,
+    h3 {
+        font-size: 38px;
+    }
+
+
+
+    .blog-item h5 {
+        font-size: 28px;
+    }
+
+    .quote-section .descr {
+        font-size: 20px;
+    }
+
+    header.header nav ul li a {
+        font-size: 18px;
+    }
+
     footer.footer .footer__botsect a,
     footer.footer .footer__botsect p {
         font-size: 14px;
     }
 
+    .blogsection {
+        padding: 70px 0;
+    }
 
 }
 
 @media(max-width:991.8px) {
     .welcomescreen .welcomescreen__textbox {
         padding-top: 100px;
-    }
-
-    .works .works__quote:after {
-        left: 0;
-    }
-
-    .works .works__quote:before {
-        right: 0;
     }
 
     header.header nav ul li {
@@ -277,175 +250,161 @@
         margin-bottom: 70px;
     }
 
-    .meetcons .descr {
-        padding-left: 0;
-    }
-
-    .meetcons .title {
-        left: 0;
-        margin: 0 0 20px 0;
-        font-size: 36px;
-    }
-
-    .meetcons__photo:after {
-        right: -90px;
-    }
-
-    .works .works__quote {
-        max-width: 540px;
-        margin-bottom: 45px;
-    }
-
-    .works .works__quote:before {
-        right: -80px;
-    }
-
-    .works .works__quote:after {
-        left: -80px;
-    }
-
-    .workbox .textbox .title {
-        font-size: 24px;
-    }
-
-    .workbox .textbox .title:after {
-        width: 60px;
-        height: 4px;
-        bottom: -16px;
-    }
-
-    .testimonials .testimonials__slide .descr:after {
-        height: 4px;
-        width: 60px;
-    }
-
-    .workbox .textbox .title {
-        margin-bottom: 35px;
-    }
-
-    .infosect .textwrapper .whitecolor {
-        display: none;
-    }
-
-    .infosect .infosect__text {
-        height: auto;
-        position: relative;
-        overflow: initial;
-
-        p {
-            position: relative;
-            top: 0;
-            font-size: 32px;
-        }
-    }
-
-    .infosect .redbtn {
-        margin-bottom: 30px;
-    }
-
-    .infosect__second .infosect__infbox p:last-child {
-        margin-bottom: 20px;
-    }
-
-    .infosect__second .infosect__infbox .yellowtextbox {
-        width: 100%;
-
-        p {
-            margin-bottom: 0;
-        }
-    }
-
-    .infosect__second .col-lg-6:nth-child(2) .infosect__infbox:after {
-        top: 80px;
-        right: 100px;
-    }
-
-    .infosect__second .infosect__infbox .yellowtextbox {
-        margin-bottom: 20px;
-    }
-
-    .infosect__first {
-        padding-bottom: 0;
-    }
-
-    .infosect__second h3 {
-        margin-bottom: 50px;
-
-        &:after {
-            bottom: -24px;
-        }
-    }
-
-    .infosect__second .row {
-        margin-left: -15px;
-        margin-right: -15px;
-    }
-
-    .infosect__second .row .col-lg-6 {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    .infosect__second .infosect__infbox:first-child:after {
-        width: 120px;
-        height: 120px;
-    }
-
-    .testimonials .swiper .testimonials__slide {
-        max-width: calc(100% - 90px);
-    }
-
-    .infosect__green .descrbox h3 {
-        margin-left: 0;
-    }
-
-    .infosect__green .descrbox p {
-        padding-left: 0;
-    }
-
-    .infosect__green .descrbox a {
-        margin-left: 0;
-        margin-bottom: 0;
-    }
-
-    .infosect.infosect__green {
-        .col-lg-6 {
-            &:nth-child(1) {
-                order: 2;
-            }
-
-            &:nth-child(2) {
-                order: 1;
-            }
-        }
-    }
-
     .showtablet {
         display: block;
-    }
-
-    .infosect__green .descrbox:not(.showtablet) {
-        padding-top: 0;
-
-        p,
-        a {
-            display: none;
-        }
     }
 
     footer.footer .footer__nav li {
         margin-right: 20px;
     }
 
-    .infosect__second .col-lg-6:nth-child(2) .infosect__infbox:after {
-        display: none;
-    }
 
     #totop {
         bottom: 100px;
     }
 
-    .infosect__green .descrbox.showtablet:after {
+    .firstsection {
+        height: 340px;
+    }
+
+    .firstsection {
+        padding-top: 100px;
+    }
+
+    .blog-item {
+        padding: 30px 30px 20px;
+        height: 220px;
+
+        h5 {
+            font-size: 24px;
+        }
+    }
+
+    .quote-section-img .descr-wrapp:before,
+    .quote-section-img .descr-wrapp:after,
+    .quote-section .descr:after,
+    .quote-section .descr:before {
+        display: none;
+    }
+
+    .hamburger-slim {
+        display: inline-block;
+        cursor: pointer;
+    }
+
+    .hamburger-slim {
+        width: 40px;
+        height: 20px;
+    }
+
+    .hamburger-slim:after,
+    .hamburger-slim:before {
+        width: 40px;
+        height: 3px;
+    }
+
+    .hamburger-slim:before {
+        box-shadow: #f69b31 0 9px 0 0;
+    }
+
+    .hamburger-slim {
+        background: transparent;
+        margin: 0;
+        position: relative;
+        height: 26px;
+        width: 48px;
+        right: 15px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+        &:before,
+        &:after {
+            background: #fff;
+            backface-visibility: hidden;
+            content: "";
+            height: 4px;
+            left: 0;
+            transition: 0.75s;
+            width: 48px;
+        }
+
+        &:before {
+            box-shadow: #fff 0 12px 0 0;
+            position: absolute;
+            top: 0;
+        }
+
+        &:after {
+            position: absolute;
+            top: calc(100% - 2px);
+        }
+
+        &.active {
+
+            &:before {
+                box-shadow: transparent 0 0 0 0;
+                top: 50%;
+                transform: rotate(225deg);
+            }
+
+            &:after {
+                top: 50%;
+                transform: rotate(315deg);
+            }
+        }
+    }
+
+    header.header nav {
+        display: none;
+    }
+
+    header.header .container {
+        position: relative;
+    }
+
+    .welcomescreen__socials,
+    .welcomescreen .swiper-pagination {
+        display: none;
+    }
+
+    .welcomescreen .welcomescreen__textbox h1 {
+        max-width: 100%;
+    }
+
+    .reversepostblock .reversepostblock__wrapp {
+        padding-left: 0;
+    }
+
+    .row.gap40 {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .row.gap40 [class*=" col-"],
+    .row.gap40 [class^=col-] {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .reversepostblock h4 {
+        margin-bottom: 40px;
+
+        &:after {
+            bottom: -23px;
+        }
+    }
+
+    .reversepostblock .redbtn {
+        max-width: 230px;
+        min-height: 50px;
+    }
+
+    .reversepostblock {
+        margin-bottom: 70px;
+    }
+
+    .footer__nav {
         display: none;
     }
 
@@ -458,19 +417,24 @@
 
 
 
+    .quote-section,
+    .reversepostblocks {
+        padding-top: 70px;
+    }
 
-
-
-
-
-
-
+    .welcomescreen .welcomescreen__textbox h1 {
+        font-size: 42px;
+    }
 
     .section-title,
-    .infosect__green .descrbox h3 {
+    .reversepostblock h4,
+    .quote-section-img .description {
         font-size: 32px;
     }
 
+    .firstsection h1 {
+        font-size: 42px;
+    }
 }
 
 @media(max-width:767.8px) {
@@ -564,9 +528,12 @@
     }
 
     .welcomescreen .welcomescreen__textbox h1 {
-        max-width: calc(100% - 120px);
         margin: 0 auto 60px;
-        font-size: 42px;
+        font-size: 38px;
+
+        span {
+            font-size: 22px;
+        }
     }
 
     .welcomescreen .welcomescreen__textbox .welcomescreen__list li {
@@ -589,7 +556,7 @@
             width: 12px;
             height: 12px;
             border-radius: 50%;
-            background: #F08976;
+            background: #A90841;
             margin-right: 10px;
             width: 8px;
             height: 8px;
@@ -698,10 +665,54 @@
         display: none !important;
     }
 
-    .footer__nav {
-        display: none;
+    .reversepostblock__wrapp {
+        margin-top: 20px;
     }
 
+    .reviews .swiper-slide {
+        width: 80%;
+    }
+
+    .reviewbox .reviewbox__right .descr {
+        font-weight: normal;
+        font-size: 18px;
+    }
+
+    .reviewbox {
+        padding: 30px;
+    }
+
+    .reviewbox .reviewbox__right .descr {
+        margin-bottom: 30px;
+    }
+
+    .quote-section-img {
+        padding: 70px 0 50px 0;
+    }
+
+
+
+
+
+
+
+
+    .reviews {
+        padding-bottom: 70px;
+    }
+
+
+    .quote-section-img .description {
+        font-size: 28px;
+    }
+
+    .quote-section-img .author {
+        font-size: 16px;
+    }
+
+    .reviewbox .review__bottsect a {
+        font-size: 14px;
+    }
 }
 
 @media(max-width:575.8px) {
@@ -730,7 +741,7 @@
 
     .welcomescreen .welcomescreen__textbox h1 {
         max-width: 100%;
-        font-size: 36px;
+        font-size: 28px;
         line-height: 120%;
         margin-bottom: 50px;
 
@@ -753,114 +764,12 @@
         min-height: 550px;
     }
 
-    .infosect,
-    .infosect__green,
-    .meetcons,
-    .works {
-        padding: 50px 0;
-    }
-
-    .works .works__quote:after {
-        top: -20px;
-        left: 15px;
-    }
-
-    .works .works__quote .descr p {
-        position: relative;
-        z-index: 2;
-    }
-
-    .works .works__quote:before {
-        display: none;
-    }
-
-    .works .works__quote {
-        margin-bottom: 30px;
-    }
-
-    .workbox .textbox .title:after {
-        bottom: -10px;
-    }
-
-    .workbox .textbox .title {
-        margin-bottom: 25px;
-    }
-
-    .workbox .textbox {
-        padding-bottom: 40px;
-    }
-
-    .works__bottbtn {
-        margin-top: 0;
-    }
-
-    .works .works__quote .descr {
-        margin-bottom: 30px;
-    }
-
-    .works .works__quote .descr:after {
-        bottom: -19px;
-    }
-
-    .infosect__first,
-    .infosect.infosect__second {
-        padding-bottom: 0;
-    }
-
-    .infosect__second .infosect__infbox img {
-        margin-bottom: 30px;
-    }
-
-    .infosect__second .infosect__infbox:first-child:after {
-        top: 57%;
-        left: 30px;
-    }
-
-    .infosect__second .infosect__infbox .yellowtextbox {
-        padding: 20px;
-    }
-
-    .infosect__second .col-lg-6:nth-child(2) .infosect__infbox:after {
-        top: 70px;
-        right: -30px;
-    }
-
-    .infosect__second .infosect__infbox img:last-child {
-        margin-top: 0;
-    }
-
-    .testimonials .swiper .swiper-button-next,
-    .testimonials .swiper .swiper-button-prev {
-        display: none;
-    }
-
-    .testimonials .swiper .testimonials__slide {
-        max-width: 100%;
-        padding: 30px 20px;
-    }
-
-    .testimonials .testimonials__slide .author span:first-child {
-        margin-right: 30px;
-    }
-
-    .testimonials .testimonials__slide .author span:first-child:after {
-        right: -17px;
-    }
-
-    .infosect__green .descrbox h3 {
-        margin-bottom: 30px;
-    }
-
     .footer__logo img {
         max-width: 150px;
     }
 
     .welcomescreen .welcomescreen__textbox {
         padding-top: 80px;
-    }
-
-    .infosect__second h3:after {
-        height: 4px;
     }
 
     .secials-mob {
@@ -882,7 +791,7 @@
                 -ms-flex-align: center;
                 align-items: center;
                 justify-content: center;
-                background: rgba(240, 137, 118, 0.85);
+                background: #A90841;
                 width: 37px;
                 height: 37px;
                 border-radius: 50%;
@@ -911,37 +820,146 @@
         right: 20px;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-    .works .works__quote .descr:after {
-        height: 4px;
+    .firstsection {
+        padding-top: 80px;
+        height: 260px;
     }
 
-    .meetcons .title {
+    .blog-item {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .reversepostblock h4 {
+        margin-bottom: 30px;
+
+        &:after {
+            bottom: -18px;
+            width: 50px;
+            height: 4px;
+        }
+    }
+
+    .quote-section .descr {
+        margin-bottom: 30px;
+    }
+
+    .quote-section .author:after {
+        top: -16px;
+    }
+
+    .reversepostblock {
+        margin-bottom: 50px;
+    }
+
+    h3 {
+        margin-bottom: 20px;
+    }
+
+    .reviews .swiper-slide {
+        width: 90%;
+    }
+
+
+    .reviewbox .reviewbox__right .descr {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    .reviewbox {
+        padding: 20px;
+    }
+
+    .quote-section-img .description {
+        margin-bottom: 30px;
+    }
+
+    .quote-section-img .description:after {
+        bottom: -19px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .firstsection h1 {
         font-size: 32px;
     }
 
-    .works .works__quote .descr p {
+    h3 {
+        font-size: 28px;
+    }
+
+    .reversepostblock h4 {
+        font-size: 24px;
+    }
+
+    .quote-section-img .description {
+        font-size: 21px;
+    }
+
+    .welcomescreen .welcomescreen__textbox h1 span {
         font-size: 18px;
     }
 
-    .works__bottbtn a,
-    .infosect .redbtn,
-    .redbtn,
-    .infosect__green .descrbox a {
-        max-width: 240px;
+    .quote-section .descr {
+        font-size: 16px;
+    }
+
+    .quote-section .author,
+    .quote-section-img .author {
+        font-size: 14px;
+    }
+
+    .reviewbox .review__bottsect .name,
+    .reviewbox .review__bottsect a {
+        font-size: 12px;
     }
 
 
+
+
+
+
+
+
+    .quote-section .author:after,
+    .welcomescreen .welcomescreen__textbox h1:after,
+    .quote-section-img .description:after {
+        width: 50px;
+        height: 4px;
+    }
+
+    .redbtn {
+        max-width: 240px;
+        min-height: 50px;
+        font-size: 12px;
+    }
+
+    .blogsection,
+    .quote-section,
+    .reversepostblocks {
+        padding: 50px 0;
+    }
+
+    .reviews {
+        padding-bottom: 50px;
+    }
+
+    .reversepostblocks {
+        padding-bottom: 0;
+    }
+
+    #totop {
+        bottom: 20px;
+        width: 40px;
+        height: 40px;
+    }
 }
 
 @media(max-width:360.8px) {
@@ -973,9 +991,18 @@
         margin-left: 5px;
     }
 
+    .pagination ul li {
+        margin: 0 8px;
+
+        a {
+            font-size: 16px;
+        }
+    }
 
 
-
+    .quote-section-img .description p br {
+        display: none;
+    }
 
 
 
@@ -1001,6 +1028,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 @media(max-height:600px) and (min-width: 1025px) {
     .welcomescreen:after {
         height: 40px;
@@ -1013,8 +1050,7 @@
     }
 
     .welcomescreen .welcomescreen__textbox h1 {
-        font-size: 52px;
-        max-width: 540px;
+        // font-size: 52px;
         margin-bottom: 50px;
     }
 
@@ -1064,8 +1100,5 @@
         margin-bottom: 15px;
     }
 
-    .welcomescreen .welcomescreen__textbox h1 {
-        font-size: 42px;
-    }
 
 }

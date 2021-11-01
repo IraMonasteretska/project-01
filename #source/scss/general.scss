@@ -22,7 +22,7 @@ body {
 }
 
 .redbtn {
-    background: #F08976;
+    background: #A90841;
     min-height: 60px;
     letter-spacing: 0.085em;
     text-transform: uppercase;
@@ -50,9 +50,40 @@ body {
     width: 100%;
 }
 
+.row.gap40 {
+    margin-left: -20px;
+    margin-right: -20px;
 
+    [class^="col-"],
+    [class*=" col-"] {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
 
+h3 {
+    font-size: 48px;
+    line-height: 121.4%;
+    font-family: 'Abril Fatface', cursive;
+    margin-bottom: 47px;
+}
 
+.sectsubtitle {
+    margin-bottom: 26px;
+    text-transform: uppercase;
+    color: #A90841;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 121.4%;
+}
+
+.sect-title {
+    font-size: 48px;
+    line-height: 121.4%;
+    font-family: 'Abril Fatface', cursive;
+}
 
 
 
