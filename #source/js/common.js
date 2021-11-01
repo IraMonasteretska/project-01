@@ -27,6 +27,7 @@ $(document).ready(function () {
 
         $('.swiper-pagination').css('right', sideWidth + 'px');
         $('.welcomescreen__socials').css('left', sideWidth + 'px');
+        $('.reviews').css('padding-left', sideWidth + 'px');
     });
 
     // testimonials slider
