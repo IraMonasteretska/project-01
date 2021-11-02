@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="css/lib/bootstrap.min.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/bundle.css">
 </head>
 
 <body>
-    <header class="header black">
+    <header class="header">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-4 col-md-4">
@@ -42,45 +42,29 @@
         </div>
     </header>
 
-    <main class="main headerpadding">
-        <div class="blogsingle-section">
+    <main class="main">
+        <div class="first-bgsection">
+            <img src="img/backgroundpic5.jpg" alt="Who I am">
             <div class="container">
-                <div class="articles-nav">
-                    <a href="#">back to articles</a>
-                    <a href="#">Next article</a>
+                <p class="first-bgsection__title">Journey with me.</p>
+                <p class="first-bgsection__subtitle">Online or via phone if you prefer. In person in Sydney, Australia
+                </p>
+            </div>
+        </div>
+        <div class="contact-info">
+            <div class="d-flex">
+                <div class="contact-info__box">
+                    <p class="title">Telephone</p>
+                    <a href="tel:0418161718">0418 161 718</a>
+                    <a href="tel:+61418161718">+ 61 418 161 718 <span>(International)</span></a>
                 </div>
-                <div class="row justify-content-center postbox">
-                    <div class="col-lg-10">
-                        <h1>Blaze your own trail</h1>
-                        <ul class="abpostbox">
-                            <li>by <span>Suzanne Caygil</span></li>
-                            <li>July 25, 2021</li>
-                            <li>2 mins read</li>
-                        </ul>
-                        <div class="greycontent">
-                            <p>
-                                Learning your best colours will feel like coming home. When you begin the journey of
-                                expressing yourself through your colours you will assert your place in the world. Your
-                                very soul will be seen.
-                            </p>
-                            <p>
-                                You have this life, being YOU, invest in yourself & shine
-                            </p>
-                        </div>
-                        <img src="img/image3.jpg" alt="img">
-                        <div class="postbox__bottomsect">
-                            <p class="text-center">Share this article</p>
-                            <ul>
-                                <li><a href="#"><img src="img/svg/facebook-grey.svg" alt="facebook"></a></li>
-                                <li><a href="#"><img src="img/svg/whatsapp-grey.svg" alt="whatsapp"></a></li>
-                                <li><a href="#"><img src="img/svg/linkedin-grey.svg" alt="linkedin"></a></li>
-                            </ul>
-                        </div>
-                    </div>
+                <div class="contact-info__box">
+                    <p class="title">E-mail</p>
+                    <a href="mailto:hello@imprimiss.sydney">hello@imprimiss.sydney</a>
                 </div>
             </div>
         </div>
-        <div class="contact-section">
+        <div class="contact-section whitebg-cont">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
@@ -102,7 +86,11 @@
                                     <div class="col-lg-12">
                                         <input type="email" placeholder="E-mail address">
                                         <textarea placeholder="Message"></textarea>
-                                        <input type="submit" value="Send to mE!" class="redbtn">
+                                        <!-- <input type="submit" value="Send to mE!" class="redbtn"> -->
+                                        <a href="#" class="redbtn" data-toggle="modal" data-target="#wonderful">Send to
+                                            mE!</a>
+
+
                                     </div>
                                 </div>
                             </form>
@@ -111,6 +99,7 @@
                 </div>
             </div>
         </div>
+
     </main>
 
     <a id="totop"></a>
@@ -143,6 +132,38 @@
             </div>
         </div>
     </footer>
+
+
+
+
+
+    <div class="modal fade" id="wonderful" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="wonderful-modal">
+                    <div class="wonderful__imgbox">
+                        <img src="img/modalpic.jpg" alt="img">
+                    </div>
+                    <div class="wonderful__descr">
+                        <p class="title">Wonderful!</p>
+                        <div class="descr">
+                            <p>I promise to get back to you within 2 working days</p>
+                        </div>
+                        <a href="index.html" class="redbtn">Home</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
 
 
     <script src="js/lib/jquery.js"></script>

@@ -73,7 +73,7 @@
     }
 
     .first-bgsection .first-bgsection__title {
-        font-size: 42px;
+        font-size: 48px;
     }
 
     .sectsubtitle {
@@ -103,9 +103,110 @@
         right: 0;
     }
 
+    .main.headerpadding {
+        padding-top: 100px;
+    }
 
+    .blogsingle-section {
+        padding-bottom: 100px;
+    }
 
+    .abpostbox li {
+        margin-right: 60px;
+        font-size: 13px;
+    }
 
+    .postbox h1 {
+        margin-bottom: 30px;
+    }
+
+    .abpostbox {
+        margin-bottom: 40px;
+    }
+
+    .postbox .greycontent {
+        padding: 40px 70px 40px;
+    }
+
+    .postbox__bottomsect {
+        padding-top: 40px;
+    }
+
+    .postbox__bottomsect p {
+        margin-bottom: 15px;
+    }
+
+    .contact-section {
+        padding: 100px 0;
+    }
+
+    .contactform-wrapper .title {
+        margin-bottom: 45px;
+    }
+
+    .abpostbox li:after {
+        right: -37px;
+        top: -3px;
+    }
+
+    .contact-info {
+        padding: 40px 60px 40px;
+        max-width: 900px;
+    }
+
+    .contact-info__box:nth-child(2):before {
+        height: 130px;
+    }
+
+    .contact-info__box .title {
+        font-size: 14px;
+        margin-bottom: 35px;
+    }
+
+    .contact-info__box .title:after {
+        width: 50px;
+        height: 4px;
+        bottom: -18px;
+    }
+
+    .contact-info__box a {
+        font-size: 18px;
+    }
+
+    .contact-info__box:nth-child(2) {
+        padding-left: 60px;
+    }
+
+    .first-bgsection .first-bgsection__subtitle {
+        font-size: 21px;
+        margin-top: 15px;
+    }
+
+    .contact-info {
+        margin-top: -30px;
+    }
+
+    .wonderful-modal .wonderful__descr .title {
+        font-size: 36px;
+        margin-bottom: 10px;
+        line-height: normal;
+    }
+
+    .wonderful-modal .wonderful__descr .descr {
+        margin-bottom: 20px;
+    }
+
+    .wonderful-modal .wonderful__descr {
+        padding: 25px 40px 45px 40px;
+    }
+
+    .wonderful-modal .wonderful__imgbox {
+        height: 220px;
+    }
+
+    .modal-dialog {
+        max-width: 500px;
+    }
 
 
 
@@ -127,7 +228,8 @@
         max-width: 260px;
     }
 
-    .sectsubtitle {
+    .sectsubtitle,
+    .postbox .greycontent p {
         font-size: 16px;
     }
 
@@ -159,7 +261,8 @@
 
     .section-title,
     h3,
-    .quote-section-img .description {
+    .quote-section-img .description,
+    .contactform-wrapper .title {
         font-size: 42px;
     }
 
@@ -170,6 +273,10 @@
 
     .firstsection h1 {
         font-size: 46px;
+    }
+
+    .postbox h1 {
+        font-size: 48px;
     }
 
 
@@ -241,10 +348,31 @@
         margin-right: 30px;
     }
 
+    .contactform-wrapper .title {
+        margin-bottom: 35px;
+        font-size: 36px;
+    }
 
+    .contactform-wrapper form input:not([type=submit]) {
+        margin-bottom: 30px;
+    }
 
+    .contactform-wrapper {
+        padding-left: 40px;
+    }
 
+    .contactform-wrapper form textarea {
+        margin-bottom: 40px;
+    }
 
+    .contact-section img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .review-item {
+        padding: 40px;
+    }
 
 
 
@@ -263,7 +391,9 @@
         font-size: 38px;
     }
 
-
+    .contactform-wrapper .title {
+        font-size: 32px;
+    }
 
     .blog-item h5 {
         font-size: 28px;
@@ -282,9 +412,20 @@
         font-size: 14px;
     }
 
-    .blogsection {
+    .blogsection,
+    .blogsingle-section,
+    .contact-section,
+    .reviews-section,
+    .contact-section.whitebg-cont {
         padding: 70px 0;
     }
+
+
+
+
+
+
+
 
 }
 
@@ -617,6 +758,45 @@
         bottom: 30px;
     }
 
+    .postbox .greycontent {
+        padding: 30px 40px 30px;
+    }
+
+    .contactform-wrapper {
+        padding-left: 0;
+    }
+
+    .contact-section>.container {
+        >.row {
+            >.col-lg-6 {
+                &:nth-child(1) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .review-item {
+        margin-bottom: 30px;
+    }
+
+
+    .contact-info__box {
+        max-width: 300px;
+    }
+
+    .contact-info {
+        max-width: 700px;
+    }
+
+    .contact-info__box a {
+        font-size: 16px;
+    }
+
+
+
+
+
 
 
 
@@ -637,7 +817,8 @@
         padding-top: 70px;
     }
 
-    .welcomescreen .welcomescreen__textbox h1 {
+    .welcomescreen .welcomescreen__textbox h1,
+    .postbox h1 {
         font-size: 42px;
     }
 
@@ -837,6 +1018,57 @@
         height: 100%;
     }
 
+    .main.headerpadding {
+        padding-top: 80px;
+    }
+
+    .articles-nav a:after {
+        width: 20px;
+    }
+
+    .articles-nav a:last-child {
+        padding-right: 30px;
+    }
+
+    .articles-nav a:first-child {
+        padding-left: 30px;
+    }
+
+    .contact-info {
+        .d-flex {
+            display: block !important;
+        }
+    }
+
+    .contact-info__box:nth-child(2) {
+        padding-left: 0;
+    }
+
+    .contact-info__box:nth-child(2):before {
+        display: none;
+    }
+
+    .contact-info__box {
+        &:first-child {
+            margin-bottom: 30px;
+        }
+    }
+
+    .contact-info__box .title {
+        margin-bottom: 20px;
+
+        &::after {
+            bottom: -11px;
+        }
+    }
+
+
+
+
+
+
+
+
 
 
 
@@ -846,7 +1078,8 @@
         padding-bottom: 70px;
     }
 
-    .first-bgsection .first-bgsection__title {
+    .first-bgsection .first-bgsection__title,
+    .postbox h1 {
         font-size: 34px;
     }
 
@@ -1020,8 +1253,6 @@
         display: none;
     }
 
-
-
     .wwm-section .myphoto img {
         bottom: 0;
         max-width: 140px;
@@ -1033,6 +1264,79 @@
         float: right;
         margin-left: 10px;
     }
+
+    .first-bgsection {
+        height: 260px;
+    }
+
+    .reviews.reviews__wwm {
+        padding-bottom: 50px;
+    }
+
+    .abpostbox li {
+        font-size: 10px;
+        margin-right: 20px;
+
+        &:after {
+            font-size: 15px;
+            right: -16px;
+        }
+    }
+
+    .postbox {
+        padding-top: 40px;
+    }
+
+    .abpostbox {
+        margin-bottom: 30px;
+    }
+
+    .postbox .greycontent {
+        padding: 20px;
+    }
+
+    .postbox__bottomsect {
+        padding-top: 30px;
+    }
+
+    .review-item .descr p {
+        font-size: 16px;
+        font-weight: normal;
+    }
+
+    .review-item {
+        padding: 20px 25px;
+    }
+
+    .review-item .review__author {
+        font-size: 12px;
+    }
+
+    .review-item .descr {
+        margin-bottom: 30px;
+    }
+
+    .review-item {
+        margin-bottom: 20px;
+    }
+
+    .first-bgsection .first-bgsection__subtitle {
+        margin-top: 10px;
+    }
+
+    .contact-info {
+        margin-top: 0;
+    }
+
+    .contact-info__box:first-child {
+        margin-bottom: 20px;
+    }
+
+    .contact-info {
+        padding: 30px 40px 30px;
+        max-width: 900px;
+    }
+
 
 
 
@@ -1050,7 +1354,9 @@
         font-size: 32px;
     }
 
-    h3 {
+    h3,
+    .postbox h1,
+    .contactform-wrapper .title {
         font-size: 28px;
     }
 
@@ -1068,7 +1374,8 @@
     }
 
     .quote-section .descr,
-    .wwm-section h5 {
+    .wwm-section h5,
+    .first-bgsection .first-bgsection__subtitle {
         font-size: 16px;
     }
 
@@ -1079,16 +1386,9 @@
     }
 
     .reviewbox .review__bottsect .name,
-    .reviewbox .review__bottsect a {
+    .reviewbox .review__bottsect a,
+    .articles-nav a {
         font-size: 12px;
-    }
-
-    .first-bgsection {
-        height: 260px;
-    }
-
-    .reviews.reviews__wwm {
-        padding-bottom: 50px;
     }
 
 
@@ -1125,7 +1425,11 @@
     .blogsection,
     .quote-section,
     .reversepostblocks,
-    .wwm-section {
+    .wwm-section,
+    .blogsingle-section,
+    .contact-section,
+    .reviews-section,
+    .contact-section.whitebg-cont {
         padding: 50px 0;
     }
 

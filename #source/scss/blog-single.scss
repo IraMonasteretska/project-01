@@ -169,10 +169,91 @@
 .contact-section {
     padding: 150px 0;
     background: #F5F5F5;
+
+    img {
+        width: 100%;
+    }
 }
 
+.contactform-wrapper {
+    max-width: 480px;
+    margin: 0 auto;
+    padding-left: 70px;
+
+    .title {
+        margin-bottom: 56px;
+        font-size: 48px;
+        line-height: 121.4%;
+        text-align: center;
+        font-family: 'Abril Fatface', cursive;
+    }
+
+    form {
+        input:not([type='submit']) {
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid #BDBDBD;
+            height: 40px;
+            width: 100%;
+            font-size: 16px;
+            font-family: 'Lato', sans-serif;
+            color: #333;
+            outline: none;
+            margin-bottom: 42px;
+            transition: .3s;
+
+            &:focus {
+                border-color: #A90841;
+            }
+
+            &::placeholder {
+                color: #BDBDBD;
+            }
+        }
+
+        textarea {
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid #BDBDBD;
+            height: 42px;
+            width: 100%;
+            font-size: 16px;
+            font-family: 'Lato', sans-serif;
+            color: #333;
+            outline: none;
+            margin-bottom: 64px;
+            resize: none;
+            padding-top: 8px;
+            transition: .3s;
+
+            &:focus {
+                border-color: #A90841;
+            }
+
+            &::placeholder {
+                color: #BDBDBD;
+            }
+        }
+
+        .redbtn {
+            border: none;
+            width: 100%;
+            max-width: 100%;
+        }
+    }
 
 
+
+
+}
+
+.articles-nav a {
+    transition: .3s;
+
+    &:hover {
+        opacity: .6;
+    }
+}
 
 
 
