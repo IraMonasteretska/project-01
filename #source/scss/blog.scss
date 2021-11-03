@@ -124,8 +124,19 @@
 
 }
 
+.blog-item {
+    transition: .5s;
+    animation-timing-function: ease-in-out;
 
+    &:hover {
+        background: #dd2466;
+    }
+}
 
+.pagination ul li a:hover {
+    color: #A90841;
+    opacity: 1;
+}
 
 
 

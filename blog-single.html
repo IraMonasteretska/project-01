@@ -22,11 +22,11 @@
                     <nav>
                         <div class="listwrapper">
                             <ul>
-                                <li><a href="#">What I do</a></li>
-                                <li><a href="#">Who I am</a></li>
-                                <li><a href="#">Reviews</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="work-with-me.html">What I do</a></li>
+                                <li><a href="work-with-me2.html">Who I am</a></li>
+                                <li><a href="reviews.html">Reviews</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="contact.html">Contact</a></li>
                             </ul>
                             <ul class="secials-mob">
                                 <li><a href="#" target="_blank"><img src="img/svg/fb.svg" alt="facebook"></a></li>
@@ -102,7 +102,9 @@
                                     <div class="col-lg-12">
                                         <input type="email" placeholder="E-mail address">
                                         <textarea placeholder="Message"></textarea>
-                                        <input type="submit" value="Send to mE!" class="redbtn">
+                                        <!-- <input type="submit" value="Send to mE!" class="redbtn"> -->
+                                        <a href="#" class="redbtn" data-toggle="modal" data-target="#wonderful">Send to
+                                            mE!</a>
                                     </div>
                                 </div>
                             </form>
@@ -123,17 +125,18 @@
                 </div>
                 <div class="footer__nav">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Work with me</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="work-with-me.html">What I do</a></li>
+                        <li><a href="work-with-me2.html">Who I am</a></li>
+                        <li><a href="reviews.html">Reviews</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
                 <div class="footer__socials">
                     <ul>
                         <li><a href="#"><img src="img/svg/fb.svg" alt="facebook"></a></li>
+                        <li><a href="#"><img src="img/svg/instagram.svg" alt="twitter"></a></li>
                         <li><a href="#"><img src="img/svg/viber.svg" alt="whatsapp"></a></li>
-                        <li><a href="#"><img src="img/svg/twitter.svg" alt="twitter"></a></li>
                     </ul>
                 </div>
             </div>
@@ -144,6 +147,25 @@
         </div>
     </footer>
 
+
+    <div class="modal fade" id="wonderful" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="wonderful-modal">
+                    <div class="wonderful__imgbox">
+                        <img src="img/modalpic.jpg" alt="img">
+                    </div>
+                    <div class="wonderful__descr">
+                        <p class="title">Wonderful!</p>
+                        <div class="descr">
+                            <p>I promise to get back to you within 2 working days</p>
+                        </div>
+                        <a href="index.html" class="redbtn">Home</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="js/lib/jquery.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>

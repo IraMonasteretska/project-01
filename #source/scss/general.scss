@@ -86,7 +86,10 @@ h3 {
     font-family: 'Abril Fatface', cursive;
 }
 
-
+*::selection {
+    background: #A90841;
+    color: #fff;
+}
 
 
 

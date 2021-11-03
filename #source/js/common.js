@@ -36,6 +36,11 @@ $(document).ready(function () {
     var swiper = new Swiper(".swiper-review", {
         slidesPerView: "auto",
         spaceBetween: 30,
+        loop: true,
+        speed: 1400,
+        autoplay: {
+            delay: 4000,
+        },
         breakpoints: {
             // when window width is >= 320px
             320: {
